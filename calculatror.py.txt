@@ -1,0 +1,36 @@
+
+#a calculator using python
+def plus(num1,num2) :
+  sum = num1 + num2
+  print("sum of two numbers: ",sum)
+def minus(num1,num2) :
+  sub = num1 - num2
+  print("subtration of two numbers: ",sub)
+def product(num1,num2) :
+  mul= num1 * num2
+  print("mutiplication of two numbers: ",mul)
+def division(num1,num2) :
+  div = num1 / num2
+  print("division of two numbers: ",div)
+def modulus(num1,num2) :
+  percentile = num1 % num2
+  print("modulus of two numbers: ",per)
+#main program
+print("Calculator")
+print("Enter the expression")
+num1=float(input("Enter the first number: "))
+char=input("Enter the operation(+,-,*,/,%)")
+num2=float(input("Enter the second number: "))
+if char == '+':
+  plus(num1,num2)
+elif char == '-' :
+  minus(num1,num2)
+elif char == '*' :
+  product(num1,num2)
+elif char == '/' :
+  division(num1,num2)
+elif char == '%' :
+  modulus(num1,num2)
+
+
+
